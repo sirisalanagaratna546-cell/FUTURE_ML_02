@@ -2,7 +2,7 @@
 
 This project builds a production-ready NLP system for automatically classifying and prioritizing customer support tickets. It covers the full machine learning lifecycle — from raw text preprocessing to a deployable web application — and is designed to be directly usable by support teams, SaaS companies, and IT service desks.
 
----
+
 
 🎯 Key Outcomes
 
@@ -12,7 +12,6 @@ This project builds a production-ready NLP system for automatically classifying 
 - Reduces manual ticket triaging effort significantly
 - Provides real-time predictions via a web interface (Flask)
 
----
 
 📂 Dataset Used
 
@@ -28,7 +27,7 @@ Target Variables:
 - "category" → Type of issue
 - "priority" → Urgency level
 
----
+
 
 🗂️ Project Structure
 
@@ -53,7 +52,7 @@ support-ticket-ml/
 ├── requirements.txt
 └── README.md
 
----
+
 
 ⚙️ Setup & Installation
 
@@ -72,8 +71,6 @@ venv\Scripts\activate          # Windows
 
 pip install -r requirements.txt
 
----
-
 🚀 Run Instructions
 
 Option A — Train Model
@@ -83,11 +80,6 @@ python src/train_model.py
 Option B — Run Web Application
 
 python app.py
-
-Open in browser:
-
-http://127.0.0.1:5000
-
 
 🤖 Machine Learning Pipeline
 
@@ -155,7 +147,7 @@ Priority Trends
 - Medium priority often linked to delays
 - Low priority includes informational queries
 
----
+
 
 💼 Business Value
 
@@ -215,6 +207,3 @@ web interface| Real-time prediction system
 This project demonstrates how Natural Language Processing (NLP) can be applied to automate support operations. It converts unstructured text into actionable decisions, enabling faster and smarter customer service systems.
 
 
-ect!
-
----
